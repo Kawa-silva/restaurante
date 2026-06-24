@@ -1,0 +1,231 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" media="screen" href="{% static 'css/bootstrap.min.css' %}"> <!--CSS do Bootstrap-->
+    <link rel="stylesheet" href="{% static '/css/style.css' %}"> <!--Meu CSS-->
+    <title>Sabor Real - Cardápio</title>
+  </head>
+  <body>
+    <!--Barra de menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #353130; color: #ffffff;">
+            <a class="navbar-brand" href="#" style="margin-left: 1%;"><img src="{% static '/img/logo-da-empresa.png' %}" alt="Restaurante Vale Minas"></a>  
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ml-auto" id="navbarNav" style="margin-left: 1%;">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item ml-auto">
+                          <a class="nav-link" href="https://igorpedra.github.io/bootstrap-site-responsivo-restaurante/" style="color: white;">INÍCIO</a>
+                      </li>
+                      <li class="nav-item ml-auto">
+                          <a class="nav-link" href="#nossocardapio" style="color: white;">CARDÁPIO</a>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        <!--Cardápio Banner-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col" id="cardapiobanner">
+                    <div id="textocardapiobanner">
+                        <h1>CONHEÇA NOSSO CARDÁPIO</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Pratos-->
+        <div class="container-fluid" id="nossocardapio">
+            <div class="row">
+                <!--Seção do Almoço-->
+                <div class="col-md-6" style="background-color: #b3a9a1;">
+                    <div class="row">
+                        <div id="titutloalmocooujantar" class="col" style="background-color: #353130;">
+                            <div id="titutloalmocooujantar2">
+                                <h5>Almoço</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 1-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato1.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Feijão Tropeiro</b>
+                                <br>Porção Grande
+                                <br>R$ 10,00
+                                <br>Porção Pequena
+                                <br>R$ 6,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 2-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato2.jpg'%});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Vaca Atolada</b>
+                                <br>Porção Grande
+                                <br>R$ 12,00
+                                <br>Porção Pequena
+                                <br>R$ 8,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 3-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato3.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Frango c/ Quiabo</b>
+                                <br>Porção Grande
+                                <br>R$ 15,00
+                                <br>Porção Pequena
+                                <br>R$ 10,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 4-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato4.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Arroz Branco</b>
+                                <br>Porção Grande
+                                <br>R$ 10,00
+                                <br>Porção Pequena
+                                <br>R$ 6,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 5-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato5.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Pamonha Doce</b>
+                                <br>Normal
+                                <br>R$ 4,00
+                                <br>Recheada
+                                <br>R$ 6,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: #b3a9a1; height: 15px;">
+                    </div>
+                    <!--Fim dos pratos do almoço-->
+                </div>
+                <!--Seção do Jantar-->
+                <div class="col-md-6" style="background-color: #b3a9a1;">
+                    <div class="row">
+                        <div id="titutloalmocooujantar" class="col" style="background-color: #353130;">
+                            <div id="titutloalmocooujantar2">
+                                <h5>Jantar</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 6-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato6.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Galinhada Mineira</b>
+                                <br>Porção Grande
+                                <br>R$ 13,00
+                                <br>Porção Pequena
+                                <br>R$ 9,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 7-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato7.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Tutu de Feijão</b>
+                                <br>Porção Grande
+                                <br>R$ 8,00
+                                <br>Porção Pequena
+                                <br>R$ 5,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 8-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato8.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Frango c/ Quiabo</b>
+                                <br>Porção Grande
+                                <br>R$ 15,00
+                                <br>Porção Pequena
+                                <br>R$ 10,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 9-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato9.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Torta de Mandioca</b>
+                                <br>Porção Grande
+                                <br>R$ 14,00
+                                <br>Porção Pequena
+                                <br>R$ 9,00
+                            </div>
+                        </div>
+                    </div>
+                    <!--Prato 10-->
+                    <div class="row">
+                        <div id="prato1" class="col-5" style="background-image: url({% static '/img/cardapio/prato10.jpg' %});">
+                        </div>
+                        <div id="pratodiv" class="col" style="background-color: #e3e2e0;">
+                            <div id="pratodiv2">
+                                <b>Pastel de Angu</b>
+                                <br>Porção Grande
+                                <br>R$ 10,00
+                                <br>Porção Pequena
+                                <br>R$ 6,00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="background-color: #b3a9a1; height: 20px;">
+                    </div>
+                    <!--Fim dos pratos do almoço-->
+                </div>
+            </div>
+        </div>
+
+    <!--Rodapé-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="footer" class="col" style="background-color: #353130;">
+                  <div id="textofooter">
+                    Desenvolvido por - <a href="https://github.com/igorpedra" style="text-decoration:none;" target="_blank">
+                      <img style="width: 16px;" src="{% static '/img/github-icone.png' %}"> Igor Pedra</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+      
+        <!--Scripts-->
+        <script src="js/jquery-3.3.1.slim.js"></script>
+        <script src="js/pooper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </footer>
+  </body>
+</html>
