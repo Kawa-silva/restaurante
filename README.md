@@ -102,7 +102,11 @@ Projeto desenvolvido para a disciplina de **Gerência de Configuração**.
 Equipe responsável:
 
 * Kawã Santos Silva
+* Matheus Araújo Silva
+* Kayck Renan
+* Camile
 * Glener
+
 # 🍽️ Sistema Web para Restaurante
 
 ## 📖 Sobre o Projeto
